@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayur Hiware - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4b0082;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px;
+            font-size: 1.2em;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4b0082;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border: 2px solid #4b0082;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #4b0082;
+            color: white;
+        }
+
+        section {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 60px;
+            margin-top: 60px;
+        }
+        
+        section h2 {
+            font-size: 2em;
+            color: #4b0082;
+            border-bottom: 2px solid #4b0082;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        ul li::before {
+            content: "✔️";
+            margin-right: 10px;
+        }
+
+        .project-item {
+            background-color: #e6e6fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 5px solid #4b0082;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            font-size: 1.2em;
+            margin: 10px 0 5px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            font-size: 1em;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #4b0082;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #360063;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: burlywood;
+            color: rgb(5, 5, 5);
+            /* position: fixed; */
+            width: 100%;
+            bottom: 0;
+        }
+        .section-icon {
+            width: 40px;  /* Adjust size based on your preference */
+            height: 40px;
+            vertical-align: bottom;  /* Aligns the icon with the text */
+            margin-left: 10px;  /* Adds some space between the text and the icon */
+}
+    
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mayur Hiware</h1>
+    <p>mayurhiware01@gmail.com | 8379071012</p>
+</header>
+
+<nav>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact Me</a>
+</nav>
+
+<section id="skills">
+    <h2>Skills <img src="skill.png" alt="Skill icon" class="section-icon"></h2>
+    <ul>
+        <li><b>Programming Languages</b>: Java, C, HTML</li>
+        <li><b>Data Structures & Algorithms (DSA)</b> in Java</li>
+        <li><b>OOP</b></li>
+        <li><b>Git & GitHub</b>: Attended Git INIT Workshop</li>
+        <li><b>Basic AI and Machine Learning</b>: Attended ML.Fit() Workshop</li>
+        <li><b>Networking</b>: Optimized LinkedIn profile for professional growth and connections</li>
+        <li><b>Soft Skills</b>: Quick learner, problem-solver, team collaborator, and communicator</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="education">
+    <h2>Education <img src="education.png" alt="Education icon" class="section-icon"></h2>
+    <ul>
+        <li><b>B.Tech in Computer Science & Engineering</b> | KITCoEK | CGPA (F.Y): 9.7</li>
+        <li>Class 10th: 94.60%</li>
+        <li>Class 12th: 80%</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="projects">
+    <h2>Projects <img src="projects.png" alt="Project icon" class="section-icon"></h2>
+    <div class="project-item">
+        <h3>Project 1: Constitution Simplified Website</h3>
+        <p>Description: Developed a website that simplifies the Indian Constitution's laws and acts for the common user. Implemented using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-item">
+        <h3>Project 2: WordPress Website for Writers Club</h3>
+        <p>Description: Created a website using WordPress for the amateur writers' club at KIT's College of Engineering, Kolhapur, providing an online platform for students to share their writings.</p>
+    </div>
+</section>
+
+<hr>
+
+<section id="achievements">
+    <h2>Achievements <img src="achievements.png" alt="Achievement icon" class="section-icon"></h2>
+    <ul>
+        <li>Completed 100 Days of Code Challenge focusing on DSA and Java</li>
+        <li>Selected for a Java Development Internship at Oasis Infobyte</li>
+        <li>Participated in HackEra 2024 at Sanjay Ghodawat University</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="experience">
+    <h2>Experience <img src="experience.png" alt="Experience icon" class="section-icon"></h2>
+    <ul>
+        <li>Intern at CodSoft - Worked on Java development projects</li>
+        <li>Logistics Team Member - ACSES Club, KITCoEK</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="contact">
+    <h2>Contact Me <img src="contact.png" alt="Contact icon" class="section-icon"></h2>
+    <form class="contact-form" action="mailto:mayurhiware01@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>Made with ♥ by Mayur Hiware</p>
+</footer>
+
+</body>
+</html>
